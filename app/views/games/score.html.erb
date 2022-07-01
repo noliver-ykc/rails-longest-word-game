@@ -1,0 +1,12 @@
+
+<div class="container">
+  <h1>Result</h1>
+  <%= @input_please %>
+  <%= @no_match %>
+
+  <%if @dictionary_result %>
+      <p><b>Congratulations!</b> <%=@dictionary_result%></p>
+    <% end %>
+
+  <%= link_to "Play again", new_path %>
+</div>

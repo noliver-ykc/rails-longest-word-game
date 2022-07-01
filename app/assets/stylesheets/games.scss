@@ -1,0 +1,33 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+
+
+$blue: rgb(33, 133, 215);
+
+body {
+  font-family: 'Inika', serif;
+}
+
+.container {
+  margin: 3px;
+}
+
+.letters {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+.char {
+  width: 20px;
+  text-align: center;
+  background-color: $blue;
+  margin: 3px;
+  padding: 5px;
+  border: .5px solid black ;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
